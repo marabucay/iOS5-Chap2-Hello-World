@@ -15,6 +15,9 @@
 		0034842117E0199500F89020 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0034842017E0199500F89020 /* BIDAppDelegate.m */; };
 		0034842417E0199500F89020 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0034842317E0199500F89020 /* BIDViewController.m */; };
 		0034842717E0199600F89020 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0034842517E0199600F89020 /* BIDViewController.xib */; };
+		0034843217E0362A00F89020 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0034843117E0362A00F89020 /* icon@2x.png */; };
+		0034843417E0362C00F89020 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0034843317E0362C00F89020 /* icon.png */; };
+		0034843717E037F000F89020 /* Hello World-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0034841817E0199500F89020 /* Hello World-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,8 @@
 		0034842217E0199500F89020 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
 		0034842317E0199500F89020 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
 		0034842617E0199600F89020 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		0034843117E0362A00F89020 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		0034843317E0362C00F89020 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +55,8 @@
 		0034840117E0199500F89020 = {
 			isa = PBXGroup;
 			children = (
+				0034843317E0362C00F89020 /* icon.png */,
+				0034843117E0362A00F89020 /* icon@2x.png */,
 				0034841617E0199500F89020 /* Hello World */,
 				0034840F17E0199500F89020 /* Frameworks */,
 				0034840D17E0199500F89020 /* Products */,
@@ -150,6 +157,9 @@
 			files = (
 				0034841B17E0199500F89020 /* InfoPlist.strings in Resources */,
 				0034842717E0199600F89020 /* BIDViewController.xib in Resources */,
+				0034843217E0362A00F89020 /* icon@2x.png in Resources */,
+				0034843417E0362C00F89020 /* icon.png in Resources */,
+				0034843717E037F000F89020 /* Hello World-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
